@@ -4,3 +4,6 @@ USE mysql;
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'Thanos123!';
 GRANT ALL ON *.* TO 'user'@'%';
 FLUSH PRIVILEGES;
+
+**DROP USER**
+drop user root@localhost;
